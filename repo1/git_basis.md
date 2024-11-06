@@ -89,6 +89,7 @@
 - `git branch -u <remote>/<branch>`：设置本地分支与远程分支的关联
 - `git branch -d -r <remote>/<branch>`：删除远程分支
 - `git branch -D -r <remote>/<branch>`：强制删除远程分支
+
 - `git checkout <branch>`：切换分支
 - `git checkout -b <branch>`：创建并切换分支
 - `git checkout -B <branch>`：强制创建并切换分支
@@ -98,3 +99,4 @@
 - `git checkout -- .`：恢复工作区所有文件到暂存区。
 - `git checkout -p <branch>`：比较当前分支与指定分支的差异
 - `git checkout -p <commit>`：比较当前分支与指定 commit 的差异
+- `git checkout -p <file>`：比较当前分支与指定文件的差异
