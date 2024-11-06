@@ -120,3 +120,22 @@
 - `git clone --depth <depth> --single-branch <repository>`：克隆远程仓库的单个分支，只克隆最近 depth 个 commit
 - `git clone --depth <depth> --mirror <repository>`：克隆远程仓库的镜像，只克隆最近 depth 个 commit
 - `git clone --depth <depth> --bare <repository>`：克隆远程仓库的裸仓库，只克隆最近 depth 个 commit
+
+- `git remote -v`：查看远程仓库
+- `git remote add <name> <url>`：添加远程仓库
+- `git remote remove <name>`：删除远程仓库
+- `git remote rename <old-name> <new-name>`：重命名远程仓库
+- `git remote set-url <name> <url>`：设置远程仓库的 URL
+- `git remote set-url --add <name> <url>`：添加远程仓库的 URL
+- `git remote set-url --delete <name> <url>`：删除远程仓库的 URL
+- `git remote update <name>`：更新远程仓库
+- `git remote prune <name>`：删除远程仓库中已经不存在的分支
+- `git remote show <name>`：查看远程仓库的信息
+- `git remote set-head <name> <branch>`：设置远程仓库的默认分支
+- `git remote set-branches <name> <branch>`：设置远程仓库的分支
+  
+- `git fetch <name>`：获取远程仓库的所有分支
+- `git fetch <name> <branch>`：获取远程仓库的指定分支
+- `git pull <name> <branch>`：获取远程仓库的指定分支，并合并到当前分支
+- `git push <name> <branch>`：将当前分支推送到远程仓库的指定分支
+- `git push <name> <branch>:<branch>`：将当前分支推送到远程仓库的指定分支，并重命名远程分支
