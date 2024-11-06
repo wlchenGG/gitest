@@ -92,8 +92,9 @@
 - `git checkout <branch>`：切换分支
 - `git checkout -b <branch>`：创建并切换分支
 - `git checkout -B <branch>`：强制创建并切换分支
-- `git checkout <commit>`：切换到指定 commit
+- `git checkout <commit>`：切换到指定 commit，即将 HEAD 指向这个commit。会提示 `detached HEAD` 警告，因为此时 HEAD 不再指向任何分支，而是指向一个具体的 commit。此时**可以进行任意修改，但不会影响其他分支**。如果需要创建一个新的分支来保存这些修改，可以使用 `git switch -c <new-branch-name>` 命令。
 - `git checkout <file>`：恢复工作区文件到指定 commit
-- `git checkout -- <file>`：恢复工作区文件到暂存区
+- `git checkout -- <file>`：恢复指定工作区文件到暂存区。用来放弃掉所有还没有加入到缓存区（就是 git add 命令）的修改，但是此命令不会删除掉刚新建的文件。因为刚新建的文件还没已有加入到 git 的管理系统中。所以对于git是未知的。手动删除即可。
+- `git checkout -- .`：恢复工作区所有文件到暂存区。
 - `git checkout -p <branch>`：比较当前分支与指定分支的差异
 - `git checkout -p <commit>`：比较当前分支与指定 commit 的差异
