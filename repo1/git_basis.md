@@ -61,4 +61,17 @@
 - `git log --pretty=format:"%h - %an, %ar : %s"`：查看提交日志（自定义格式），展示每次提交的 commit id、commit author、commit date 和 commit message
 - `git log --pretty=format:"%h - %an, %ar : %s" --graph`：查看提交日志（自定义格式+图形化），展示每次提交的 commit id、commit author、commit date 和 commit message
 
-- 
+- `git merge <branch>`：合并指定 branch 到当前 branch
+- `git merge --no-ff <branch>`：合并指定 branch 到当前 branch，不使用 fast-forward
+- `git merge --squash <branch>`：合并指定 branch 到当前 branch，将所有 commit 合并为一个 commit
+- `git merge --no-commit <branch>`：合并指定 branch 到当前 branch，不自动提交
+- `git merge --abort`：取消合并，回到合并前的状态
+- `git merge --continue`：继续合并，解决冲突后继续合并，解决冲突后需要手动提交
+- `git merge --ff-only <branch>`：合并指定 branch 到当前 branch，只使用 fast-forward
+- `git merge --no-ff --no-commit <branch>`：合并指定 branch 到当前 branch，不使用 fast-forward，不自动提交
+- `git merge --no-ff --squash <branch>`：合并指定 branch 到当前 branch，不使用 fast-forward，将所有 commit 合并为一个 commit
+- `git merge --no-ff --no-commit --squash <branch>`：合并指定 branch 到当前 branch，不使用 fast-forward，不自动提交，将所有 commit 合并为一个 commit
+
+- `git rebase <branch>`：将当前 branch 的提交应用到指定 branch 上，保留指定 branch 的提交
+- `git rebase --onto <branch> <branch>`：将当前 branch 的提交应用到指定 branch 上，忽略指定 branch 的提交
+- `git rebase --interactive <branch>`：交互式 rebase，可以修改、删除、合并提交
