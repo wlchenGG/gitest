@@ -61,16 +61,3 @@
 - `git log --pretty=format:"%h - %an, %ar : %s"`：查看提交日志（自定义格式），展示每次提交的 commit id、commit author、commit date 和 commit message
 - `git log --pretty=format:"%h - %an, %ar : %s" --graph`：查看提交日志（自定义格式+图形化），展示每次提交的 commit id、commit author、commit date 和 commit message
  
-- `git branch`：查看当前分支
-- `git branch <branch>`：创建分支
-- `git branch -d <branch>`：删除分支
-- `git branch -D <branch>`：强制删除分支
-- `git branch -m <branch>`：重命名分支
-- `git branch -M <branch>`：强制重命名分支
-- `git branch -r`：查看远程分支
-- `git branch -a`：查看所有分支
-- `git branch -vv`：查看本地分支与远程分支的关联
-- `git branch -u <remote>/<branch>`：设置本地分支与远程分支的关联
-- `git branch -d -r <remote>/<branch>`：删除远程分支
-- `git branch -D -r <remote>/<branch>`：强制删除远程分支
-- 
