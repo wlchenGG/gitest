@@ -107,3 +107,16 @@
 - `git switch --detach <branch>`：切换到指定分支，并将 HEAD 指向这个分支
 - `git switch --create <branch>`：创建并切换分支
 
+### 远程仓库操作
+
+- `git clone <repository>`：克隆远程仓库
+- `git clone <repository> <directory>`：克隆远程仓库到指定目录
+- `git clone --depth <depth> <repository>`：克隆远程仓库，只克隆最近 depth 个 commit
+- `git clone --branch <branch> <repository>`：克隆远程仓库的指定分支
+- `git clone --single-branch <repository>`：克隆远程仓库的单个分支
+- `git clone --mirror <repository>`：克隆远程仓库的镜像
+- `git clone --bare <repository>`：克隆远程仓库的裸仓库
+- `git clone --depth <depth> --branch <branch> <repository>`：克隆远程仓库的指定分支，只克隆最近 depth 个 commit
+- `git clone --depth <depth> --single-branch <repository>`：克隆远程仓库的单个分支，只克隆最近 depth 个 commit
+- `git clone --depth <depth> --mirror <repository>`：克隆远程仓库的镜像，只克隆最近 depth 个 commit
+- `git clone --depth <depth> --bare <repository>`：克隆远程仓库的裸仓库，只克隆最近 depth 个 commit
