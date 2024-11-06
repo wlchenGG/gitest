@@ -100,3 +100,10 @@
 - `git checkout -p <branch>`：比较当前分支与指定分支的差异
 - `git checkout -p <commit>`：比较当前分支与指定 commit 的差异
 - `git checkout -p <file>`：比较当前分支与指定文件的差异
+
+- `git switch <branch>`：切换分支
+- `git switch -c <branch>`：创建并切换分支
+- `git switch -C <branch>`：强制创建并切换分支
+- `git switch --detach <branch>`：切换到指定分支，并将 HEAD 指向这个分支
+- `git switch --create <branch>`：创建并切换分支
+
