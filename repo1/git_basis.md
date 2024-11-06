@@ -20,7 +20,7 @@
 - `git init`：初始化 git 仓库
 
 - `git add <file>...`：添加文件到暂存区
-- `git add .`：添加所有文件到暂存区
+- `git add .` 或 `git add -A`：添加所有文件到暂存区
 - `git status`：查看当前 git 状态
 - `git diff`：查看暂存区与工作区的差异
 - `git diff --cached`：查看暂存区与本地仓库的差异
@@ -37,3 +37,5 @@
 - `git reset`：重置暂存区
 - `git commit -m "commit message"`：提交暂存区的文件到本地仓库
 - `git commit`：提交暂存区的文件到本地仓库
+
+- `git log`：查看提交日志
