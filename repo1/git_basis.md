@@ -76,3 +76,24 @@
 - `git rebase <branch>`：将当前 branch 的提交应用到指定 branch 上，保留指定 branch 的提交
 - `git rebase --onto <branch> <branch>`：将当前 branch 的提交应用到指定 branch 上，忽略指定 branch 的提交
 - `git rebase --interactive <branch>`：交互式 rebase，可以修改、删除、合并提交
+
+- `git branch`：查看当前分支
+- `git branch <branch>`：创建分支
+- `git branch -d <branch>`：删除分支
+- `git branch -D <branch>`：强制删除分支
+- `git branch -m <branch>`：重命名分支
+- `git branch -M <branch>`：强制重命名分支
+- `git branch -r`：查看远程分支
+- `git branch -a`：查看所有分支
+- `git branch -vv`：查看本地分支与远程分支的关联
+- `git branch -u <remote>/<branch>`：设置本地分支与远程分支的关联
+- `git branch -d -r <remote>/<branch>`：删除远程分支
+- `git branch -D -r <remote>/<branch>`：强制删除远程分支
+- `git checkout <branch>`：切换分支
+- `git checkout -b <branch>`：创建并切换分支
+- `git checkout -B <branch>`：强制创建并切换分支
+- `git checkout <commit>`：切换到指定 commit
+- `git checkout <file>`：恢复工作区文件到指定 commit
+- `git checkout -- <file>`：恢复工作区文件到暂存区
+- `git checkout -p <branch>`：比较当前分支与指定分支的差异
+- `git checkout -p <commit>`：比较当前分支与指定 commit 的差异
