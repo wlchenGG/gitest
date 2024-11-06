@@ -60,6 +60,7 @@
 - `git log --stat`：查看提交日志（统计），展示每次提交的修改文件和修改数
 - `git log --pretty=format:"%h - %an, %ar : %s"`：查看提交日志（自定义格式），展示每次提交的 commit id、commit author、commit date 和 commit message
 - `git log --pretty=format:"%h - %an, %ar : %s" --graph`：查看提交日志（自定义格式+图形化），展示每次提交的 commit id、commit author、commit date 和 commit message
+- `git log <branch>`：查看指定分支的提交日志
 
 - `git merge <branch>`：合并指定 branch 到当前 branch
 - `git merge --no-ff <branch>`：合并指定 branch 到当前 branch，不使用 fast-forward
