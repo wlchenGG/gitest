@@ -133,9 +133,15 @@
 - `git remote show <name>`：查看远程仓库的信息
 - `git remote set-head <name> <branch>`：设置远程仓库的默认分支
 - `git remote set-branches <name> <branch>`：设置远程仓库的分支
-  
+
 - `git fetch <name>`：获取远程仓库的所有分支
 - `git fetch <name> <branch>`：获取远程仓库的指定分支
 - `git pull <name> <branch>`：获取远程仓库的指定分支，并合并到当前分支
 - `git push <name> <branch>`：将当前分支推送到远程仓库的指定分支
 - `git push <name> <branch>:<branch>`：将当前分支推送到远程仓库的指定分支，并重命名远程分支
+- `git push -u <name> <branch>`：将当前分支推送到远程仓库的指定分支，并设置远程仓库的默认分支
+
+
+
+
+- `git push
