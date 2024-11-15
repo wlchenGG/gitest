@@ -25,3 +25,11 @@ $$
 
 - 一个图片链接
 <div align="center" ><img src="https://fastly.jsdelivr.net/gh/XiangYiChen12/PicBed@main/images/20241106082251.png" alt="20241106082251" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/><br><div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #777; font-size: 90%; padding: 1px;">此处添加标题</div></div>
+
+- 一个表格
+
+| 学号 | 姓名 | 性别 | 年龄 |
+| :--: | :--: | :--: | :--: |
+|  001 | 张三 | 男   |  18  |
+|  002 | 李四 | 女   |  19  |
+|  003 | 王五 | 男   |  20  |
