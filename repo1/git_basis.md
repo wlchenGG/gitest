@@ -89,6 +89,10 @@
 - `git branch -u <remote>/<branch>`：设置本地分支与远程分支的关联
 - `git branch -d -r <remote>/<branch>`：删除远程分支
 - `git branch -D -r <remote>/<branch>`：强制删除远程分支
+  重命名远程分支
+- `git branch -m <old-branch> <new-branch>`：重命名本地分支
+- `git branch -M <old-branch> <new-branch>`：强制重命名本地分支
+
 
 - `git checkout <branch>`：切换分支
 - `git checkout -b <branch>`：创建并切换分支
